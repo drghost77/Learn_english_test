@@ -1,266 +1,299 @@
 {
+  "meta": {
+    "version": "2.0",
+    "created": "2025-01-15",
+    "description": "Base de données pour l'apprentissage de l'anglais en 90 jours"
+  },
   "books": {
     "40_lecons": {
+      "title": "40 Leçons Progressives",
+      "description": "Méthode progressive du niveau A1 à B2",
       "lessons": [
         {
           "id": 1,
-          "title": "Je suis / To be (affirmatif)",
-          "summary": "Apprends à dire qui tu es en anglais avec 'to be'.",
-          "objectifs": ["Utiliser 'I am' correctement", "Connaître les adjectifs de base", "Faire des phrases simples"],
-          "explications": "Le verbe 'to be' signifie 'être'. Au présent : I am, You are, He/She is, We are, They are.",
-          "exercices": [
-            {
-              "type": "qcm",
-              "question": "Traduire : Je suis heureux.",
-              "options": ["I am happy.", "I am sad.", "I am hungry."],
-              "answer": 0,
-              "feedback": "Correct ! 'I am happy.' signifie 'Je suis heureux'."
-            },
-            {
-              "type": "trous",
-              "question": "I ___ a student.",
-              "answer": "am",
-              "feedback": "Le verbe 'to be' se conjugue 'am' avec 'I'."
-            },
-            {
-              "type": "production",
-              "question": "Écris une phrase : Je suis fatigué.",
-              "answer": "I am tired.",
-              "feedback": "N'oublie pas : 'tired' signifie 'fatigué'."
-            }
+          "title": "Leçon 1 : Je suis (I am)",
+          "level": "A1",
+          "summary": "Introduction au verbe 'to be' à la première personne du singulier",
+          "objectifs": [
+            "Utiliser 'I am' correctement",
+            "Maîtriser les adjectifs de base",
+            "Comprendre la structure sujet-verbe-complément"
           ],
-          "orales": [
-            "Lis à voix haute 3x : I am happy. I am tired. I am ready.",
-            "Présente-toi à voix haute : I am + [ton prénom].",
-            "Shadowing : répète les phrases entendues sur BBC Learning English."
-          ]
-        },
-        {
-          "id": 2,
-          "title": "Je ne suis pas / To be (négatif)",
-          "summary": "Apprends à former la négation avec 'to be'.",
-          "objectifs": ["Dire ce que tu n’es pas", "Utiliser 'not'", "Exprimer une identité négative"],
-          "explications": "Pour la négation, ajoute 'not' : I am not, You are not (You're not), etc.",
+          "explications": "Le verbe 'to be' (être) est le verbe le plus important en anglais. À la première personne du singulier, on dit 'I am' (je suis). Les adjectifs sont INVARIABLES en anglais : ils ne changent jamais de forme.\n\nExemples :\n- I am happy. (Je suis content/contente)\n- I am a student. (Je suis étudiant/étudiante)\n- I am from France. (Je viens de France)\n\nForme contractée : I'm (informel)\nForme négative : I am not / I'm not",
+          "vocabulaire": [
+            {"word": "happy", "translation": "heureux/heureuse", "example": "I am happy today."},
+            {"word": "sad", "translation": "triste", "example": "I am sad."},
+            {"word": "tired", "translation": "fatigué(e)", "example": "I am tired."},
+            {"word": "student", "translation": "étudiant(e)", "example": "I am a student."}
+          ],
           "exercices": [
             {
               "type": "qcm",
-              "question": "Traduire : Je ne suis pas fatigué.",
-              "options": ["I am not tired.", "I not am tired.", "I am no tired."],
+              "question": "Comment dit-on 'Je suis étudiant' en anglais ?",
+              "options": [
+                "I am a student.",
+                "I am student.",
+                "I'm a students."
+              ],
               "answer": 0,
-              "feedback": "La bonne structure est 'I am not'."
+              "feedback": "On utilise l'article 'a' devant un nom singulier dénombrable."
             },
             {
               "type": "trous",
-              "question": "I ___ not sad.",
+              "question": "I ___ happy.",
               "answer": "am",
-              "feedback": "N’oublie pas : le verbe vient avant 'not'."
+              "feedback": "'am' est la forme de 'to be' pour 'I'"
+            },
+            {
+              "type": "transformation",
+              "question": "Mets à la forme négative : I am tired.",
+              "answer": "I am not tired.",
+              "alternatives": ["I'm not tired."],
+              "feedback": "Ajoute 'not' après 'am' pour la négation."
             },
             {
               "type": "correction",
-              "question": "Corrige : I not happy.",
-              "answer": "I am not happy.",
-              "feedback": "Toujours 'am' après 'I'."
+              "question": "Corrige cette phrase : I am a students.",
+              "answer": "I am a student.",
+              "feedback": "Après 'a', on utilise le SINGULIER : student (pas students)."
+            },
+            {
+              "type": "production",
+              "question": "Écris 3 phrases sur toi en utilisant 'I am'.",
+              "answer": "Libre",
+              "feedback": "Vérifie : majuscule à 'I', verbe 'am', ponctuation."
             }
           ],
           "orales": [
-            "Répète : I am not sad. I am not angry. I am not late.",
-            "Exprime 3 choses que tu n’es pas (ex : I am not tired).",
-            "Shadow : répète après la vidéo BBC sur la négation."
+            "Répète 10 fois à voix haute : I am happy. I am sad. I am tired.",
+            "Présente-toi en 3 phrases (nom, nationalité, profession).",
+            "Enregistre-toi et réécoute pour vérifier ta prononciation."
           ]
         },
         {
-          "id": 3,
-          "title": "Questions avec 'to be'",
-          "summary": "Apprends à poser des questions simples avec 'to be'.",
-          "objectifs": ["Inverser verbe et sujet", "Poser des questions polies"],
-          "explications": "Ex : Am I late? Are you happy? Is he ready?",
+          "id": 2,
+          "title": "Leçon 2 : Tu es, Il/Elle est (You are, He/She is)",
+          "level": "A1",
+          "summary": "Les autres formes du verbe 'to be' au présent",
+          "objectifs": [
+            "Conjuguer 'to be' pour you/he/she",
+            "Différencier he/she/it",
+            "Poser des questions simples"
+          ],
+          "explications": "Conjugaison complète de 'to be' :\n- I am (je suis)\n- You are (tu es / vous êtes)\n- He is (il est)\n- She is (elle est)\n- It is (c'est - pour les choses/animaux)\n- We are (nous sommes)\n- They are (ils/elles sont)\n\nFormes contractées : you're, he's, she's, it's, we're, they're\n\nQuestions : Are you...? Is he...? Is she...?",
+          "vocabulaire": [
+            {"word": "teacher", "translation": "professeur", "example": "She is a teacher."},
+            {"word": "doctor", "translation": "médecin", "example": "He is a doctor."},
+            {"word": "friend", "translation": "ami(e)", "example": "You are my friend."},
+            {"word": "nice", "translation": "gentil(le)", "example": "He is nice."}
+          ],
           "exercices": [
             {
               "type": "qcm",
-              "question": "Traduire : Es-tu étudiant ?",
-              "options": ["Are you a student?", "You are a student?", "Do you a student?"],
-              "answer": 0,
-              "feedback": "Inversion sujet/verbe : 'Are you ...?'"
+              "question": "Choisis la bonne forme : She ___ a doctor.",
+              "options": ["am", "is", "are"],
+              "answer": 1,
+              "feedback": "Avec 'she', on utilise 'is'."
             },
             {
               "type": "trous",
-              "question": "___ you from France?",
-              "answer": "Are",
-              "feedback": "'Are you...' pour poser une question à la 2e personne."
-            }
-          ],
-          "orales": [
-            "Pose oralement 3 questions avec 'are you...?'",
-            "Shadow : écoute une leçon BBC 'Are you ready?'.",
-            "Jeu : inverse sujet/verbe à voix haute."
-          ]
-        },
-        {
-          "id": 4,
-          "title": "Présent simple (habitudes)",
-          "summary": "Exprimer ses habitudes quotidiennes.",
-          "objectifs": ["Utiliser le présent simple", "Conjuguer avec he/she"],
-          "explications": "I work every day. He works in an office. On ajoute -s avec 'he/she/it'.",
-          "exercices": [
-            {
-              "type": "qcm",
-              "question": "Traduire : Il travaille le matin.",
-              "options": ["He works in the morning.", "He work in the morning.", "He is work in morning."],
-              "answer": 0,
-              "feedback": "Avec 'he', on ajoute '-s' à 'work'."
+              "question": "You ___ my friend.",
+              "answer": "are",
+              "feedback": "Avec 'you', on utilise 'are'."
             },
             {
-              "type": "trous",
-              "question": "She ___ English every day.",
-              "answer": "studies",
-              "feedback": "Y devient IES après une consonne + Y."
+              "type": "transformation",
+              "question": "Transforme en question : He is tired.",
+              "answer": "Is he tired?",
+              "feedback": "On inverse le sujet et le verbe pour former une question."
             }
           ],
           "orales": [
-            "Lis : I work. You work. He works.",
-            "Shadowing : répète des phrases d’habitude BBC.",
-            "Décris ta journée à voix haute (3 phrases)."
-          ]
-        },
-        {
-          "id": 5,
-          "title": "Passé simple : être",
-          "summary": "Exprimer des faits passés avec 'was/were'.",
-          "objectifs": ["Utiliser 'was' et 'were'", "Comprendre le contexte passé"],
-          "explications": "I/He/She was – You/We/They were. Ex : I was tired yesterday.",
-          "exercices": [
-            {
-              "type": "qcm",
-              "question": "Traduire : Nous étions à l’école.",
-              "options": ["We were at school.", "We was at school.", "We are at school."],
-              "answer": 0,
-              "feedback": "‘We’ → ‘were’ au passé."
-            },
-            {
-              "type": "trous",
-              "question": "I ___ happy yesterday.",
-              "answer": "was",
-              "feedback": "‘I was’ pour le passé."
-            }
-          ],
-          "orales": [
-            "Dis : I was happy. You were busy. We were at home.",
-            "Shadow : écoute un dialogue au passé sur BBC.",
-            "Partage 3 souvenirs simples (I was... yesterday)."
+            "Prononce : He is / She is / You are (répète 5 fois)",
+            "Décris 3 personnes de ton entourage"
           ]
         }
       ]
     },
-
     "800_expressions": {
+      "title": "800 Expressions Essentielles",
+      "description": "Expressions courantes classées par thème",
       "chapters": [
         {
           "id": 1,
-          "title": "Salutations et présentations",
-          "summary": "Apprends à saluer et te présenter naturellement.",
-          "objectifs": ["Saluer formellement et familièrement", "Donner ton nom"],
-          "explications": "Hi! Hello! Good morning! → Bonjour. Nice to meet you → Ravi de te rencontrer.",
-          "exercices": [
+          "title": "Salutations et Politesse",
+          "theme": "Greetings",
+          "expressions": [
             {
-              "type": "qcm",
-              "question": "Traduire : Bonjour !",
-              "options": ["Hi!", "Bye!", "Good night!"],
-              "answer": 0,
-              "feedback": "‘Hi!’ est la salutation neutre."
+              "en": "Hello!",
+              "fr": "Bonjour !",
+              "context": "Formel ou informel",
+              "audio_hint": "hə-ˈlō"
             },
             {
-              "type": "trous",
-              "question": "Nice to ___ you.",
-              "answer": "meet",
-              "feedback": "‘Nice to meet you’ = ‘Ravi de te rencontrer’."
+              "en": "Good morning!",
+              "fr": "Bonjour ! (matin)",
+              "context": "Jusqu'à midi",
+              "audio_hint": "ɡʊd ˈmɔːrnɪŋ"
+            },
+            {
+              "en": "How are you?",
+              "fr": "Comment allez-vous ? / Comment vas-tu ?",
+              "context": "Question courante",
+              "reponses": ["I'm fine, thank you.", "I'm good.", "Not bad."]
+            },
+            {
+              "en": "Thank you!",
+              "fr": "Merci !",
+              "context": "Gratitude",
+              "variations": ["Thanks!", "Thank you very much!", "Thanks a lot!"]
+            },
+            {
+              "en": "You're welcome!",
+              "fr": "De rien !",
+              "context": "Réponse à 'thank you'",
+              "variations": ["No problem!", "My pleasure!"]
             }
-          ],
-          "orales": [
-            "Simule une rencontre : Hi, I’m [name]. Nice to meet you.",
-            "Shadow BBC : Greetings and small talk.",
-            "Présente un ami fictif."
           ]
         },
         {
           "id": 2,
-          "title": "Exprimer ses goûts",
-          "summary": "Parler de ce que tu aimes ou détestes.",
-          "objectifs": ["Utiliser 'like' et 'don't like'", "Exprimer préférences"],
-          "explications": "I like pizza. I don’t like coffee. He likes music.",
-          "exercices": [
+          "title": "Se Présenter",
+          "theme": "Introductions",
+          "expressions": [
             {
-              "type": "qcm",
-              "question": "Traduire : Elle aime danser.",
-              "options": ["She likes dancing.", "She like dancing.", "She liking dance."],
-              "answer": 0,
-              "feedback": "‘likes’ car le sujet est ‘she’."
+              "en": "My name is...",
+              "fr": "Je m'appelle...",
+              "context": "Présentation formelle",
+              "example": "My name is Jean. Nice to meet you!"
+            },
+            {
+              "en": "I'm from...",
+              "fr": "Je viens de...",
+              "context": "Origine",
+              "example": "I'm from France."
+            },
+            {
+              "en": "Nice to meet you!",
+              "fr": "Enchanté(e) !",
+              "context": "Première rencontre",
+              "reponse": "Nice to meet you too!"
             }
-          ],
-          "orales": [
-            "Dis 3 choses que tu aimes et 3 que tu n’aimes pas.",
-            "Répète : I like / I don’t like.",
-            "Jeu : pose la question à un ami fictif : Do you like...?"
           ]
         }
       ]
     },
-
     "etre_pro": {
+      "title": "Anglais Professionnel",
+      "description": "Vocabulaire et situations professionnelles",
       "fiches": [
         {
           "id": 1,
-          "title": "Méthode GROW",
-          "summary": "Fixe tes objectifs d’apprentissage efficaces.",
-          "objectifs": ["Définir objectifs", "Évaluer ton niveau"],
-          "explications": "G: Goal – R: Reality – O: Options – W: Will. Clarifie ton plan.",
-          "exercices": [
-            {"type": "production", "question": "Décris ton objectif : Que veux-tu atteindre en 90 jours ?"}
+          "title": "Écrire un Email Professionnel",
+          "domaine": "Communication écrite",
+          "niveau": "B1",
+          "structure": [
+            {
+              "partie": "Objet",
+              "exemples": [
+                "Meeting Request: Project Update",
+                "Question regarding the invoice",
+                "Follow-up: Our conversation yesterday"
+              ]
+            },
+            {
+              "partie": "Salutation",
+              "formel": "Dear Mr./Ms. [Name],",
+              "neutre": "Hello [Name],",
+              "informel": "Hi [Name],"
+            },
+            {
+              "partie": "Introduction",
+              "exemples": [
+                "I hope this email finds you well.",
+                "Thank you for your email.",
+                "I am writing to inquire about..."
+              ]
+            },
+            {
+              "partie": "Corps",
+              "conseils": [
+                "Soyez clair et concis",
+                "Un paragraphe = une idée",
+                "Utilisez des connecteurs logiques"
+              ]
+            },
+            {
+              "partie": "Conclusion",
+              "exemples": [
+                "Please let me know if you have any questions.",
+                "I look forward to hearing from you.",
+                "Thank you for your time and consideration."
+              ]
+            },
+            {
+              "partie": "Formule de politesse",
+              "formel": "Sincerely, / Yours sincerely,",
+              "neutre": "Best regards, / Kind regards,",
+              "informel": "Best, / Cheers,"
+            }
           ],
-          "orales": [
-            "Lis ton plan à voix haute.",
-            "Shadow : explique ton objectif en anglais simple."
-          ]
-        },
-        {
-          "id": 2,
-          "title": "Mindset d’apprentissage",
-          "summary": "Cultive une mentalité d’apprenant efficace.",
-          "objectifs": ["Gérer erreurs", "Apprendre activement"],
-          "explications": "Les erreurs sont des signaux. Parle chaque jour, même imparfaitement.",
-          "exercices": [
-            {"type": "production", "question": "Note 3 façons d’apprendre activement chaque jour."}
+          "vocabulaire": [
+            {"word": "attached", "translation": "ci-joint", "example": "Please find attached the report."},
+            {"word": "deadline", "translation": "date limite", "example": "The deadline is Friday."},
+            {"word": "regarding", "translation": "concernant", "example": "Regarding your question..."}
           ],
-          "orales": [
-            "Répète : Mistakes help me learn.",
-            "Exprime une erreur passée et ce qu’elle t’a appris."
-          ]
+          "exercice": "Écris un email pour demander un rendez-vous avec ton manager."
         }
       ]
     }
   },
-
   "srs_cards": [
-    {"front": "Bonjour", "back": "Hello", "interval": 1, "easiness": 2.5, "next": "2025-11-13"},
-    {"front": "Je suis", "back": "I am", "interval": 2, "easiness": 2.4, "next": "2025-11-14"},
-    {"front": "Je ne suis pas", "back": "I am not", "interval": 3, "easiness": 2.3, "next": "2025-11-15"},
-    {"front": "Travailler", "back": "Work", "interval": 1, "easiness": 2.5, "next": "2025-11-13"},
-    {"front": "Fatigué", "back": "Tired", "interval": 1, "easiness": 2.5, "next": "2025-11-13"},
-    {"front": "Aimer", "back": "Like", "interval": 1, "easiness": 2.5, "next": "2025-11-13"}
+    {
+      "front": "Bonjour",
+      "back": "Hello",
+      "category": "Salutations",
+      "level": "A1"
+    },
+    {
+      "front": "Je suis",
+      "back": "I am",
+      "category": "Verbe être",
+      "level": "A1"
+    },
+    {
+      "front": "Comment allez-vous ?",
+      "back": "How are you?",
+      "category": "Salutations",
+      "level": "A1"
+    }
   ],
-
   "tests": {
-    "a2": [
-      {"question": "Traduire : Bonjour.", "answer": "Hello."},
-      {"question": "Traduire : Je suis heureux.", "answer": "I am happy."},
-      {"question": "Traduire : Il travaille le matin.", "answer": "He works in the morning."}
-    ],
-    "b1": [
-      {"question": "Traduire : J’ai étudié hier.", "answer": "I studied yesterday."},
-      {"question": "Traduire : Elle aime lire.", "answer": "She likes reading."}
-    ],
-    "b2": [
-      {"question": "Traduire : Si j’avais su, je serais venu.", "answer": "If I had known, I would have come."},
-      {"question": "Traduire : Ils ont vécu à Londres pendant cinq ans.", "answer": "They lived in London for five years."}
-    ]
+    "a2": {
+      "title": "Test de niveau A2",
+      "duree": "20 minutes",
+      "questions": [
+        {
+          "question": "Traduire : Bonjour, comment allez-vous ?",
+          "answer": "Hello, how are you?",
+          "alternatives": ["Hi, how are you?"]
+        },
+        {
+          "question": "Complète : I ___ a student.",
+          "answer": "am"
+        }
+      ]
+    },
+    "b1": {
+      "title": "Test de niveau B1",
+      "duree": "30 minutes",
+      "questions": [
+        {
+          "question": "Conjugue au présent continu : She (read) a book.",
+          "answer": "She is reading a book.",
+          "alternatives": ["She's reading a book."]
+        }
+      ]
+    }
   }
 }
