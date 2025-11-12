@@ -1,4 +1,17 @@
-streamlit>=1.20.0
-pandas
-beautifulsoup4
-requests
+# Requirements pour l'application d'apprentissage d'anglais
+# Python 3.8+
+
+# Framework principal
+streamlit==1.31.0
+
+# Base de données et données
+pandas==2.0.3
+
+# Pas besoin de sqlite3 (inclus dans Python standard)
+
+# Pour le web scraping (scrape_content.py)
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Pour le traitement de texte (optionnel mais utile)
+nltk==3.8.1
